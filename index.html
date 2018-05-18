@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pixel Art Maker - Grow with Google project 3 - With upgrades</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Lab: Pixel Art Maker</h1>
+
+    <h2>Choose Grid Size</h2>
+    <div id="inputStripe">
+      <form id="sizePicker">
+          Grid Height:
+          <input type="number" id="inputHeight" name="height" min="1" value="1">
+          Grid Width:
+          <input type="number" id="inputWeight" name="width" min="1" value="1">
+          <input type="submit" value = "Create Canvas" class="button">
+      </form>
+      <input type="submit" value = "Clear Canvas" class="button isHidden" id="clearButton">
+    </div>
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+    <div id="canvas">
+      <h2 id="canvasHeader">Design Canvas</h2>
+      <span><i id="icon" class="fas fa-info-circle fa-xs" data-fa-transform="shrink-8 up-6 right-6" data-toggle="tooltip" title="After creating a design canvas, click and drag to color. Click again to clear cell."></i></span>
+      <table id="pixelCanvas"></table>
+    </div>
+
+    <script src="designs.js"></script>
+</body>
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

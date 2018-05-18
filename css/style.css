@@ -1,0 +1,86 @@
+html{
+  height: 100%;
+}
+
+body {
+    text-align: center;
+    background: url(http://blog.hostbaby.com/wp-content/uploads/2014/03/PaintSquares_1920x1234.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+#icon {
+  position: relative;
+  /* Adjust these values accordingly */
+  top: -5px;
+  left: 5px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+    border-radius: 5px;
+}
+
+input[type=color] {
+    width: 6em;
+    border-radius: 5px;
+}
+
+.button {
+  font-size: 0.8em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.isHidden {
+  visibility: hidden;
+}
+.isDisplayed {
+  visibility: visible;
+
+}
+
+#sizePicker {
+  display: inline;
+  margin-left: 5%;
+}
+
+#colorPicker, #pixelCanvas {
+  cursor: pointer;
+}
+
+#canvasHeader{
+  display: inline-block;
+  margin-left: 0.3%;
+}
